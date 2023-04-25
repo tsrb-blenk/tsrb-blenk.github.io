@@ -6,11 +6,9 @@ body {
     background-color: #43455e;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
+
+/* ------------------------------------------ */
 
 nav {
     background: linear-gradient(#313244AA, #31324477, #31324444, #31324400);
@@ -19,65 +17,55 @@ nav {
     flex-direction: row;
 }
 
-nav div h1 {
-    color: #ffffff;
-    margin: 0 0 0 2rem;
-}
-
-nav div h1 span {
-    color: #ff0000;
-}
-
-nav div ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-nav div ul li {
-    list-style: none;
-    margin: 0 1.5rem;
-}
-
-nav div ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-nav div ul li a:hover {
-    color: #676b8a;
-}
 
 .nav-logo {
     width: 20%;
 }
+.nav-center {
+    width: 55%;
+}
+.nav-login {
+    width: 25%;
+    align-items: end;
+}
+
 
 .nav-logo a {
     text-decoration: none;
 }
-
 .nav-logo h1 {
+    color: #ffffff;
+    margin: 0 0 0 2rem;
     user-select: none;
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     font-size: 2.5rem;
 }
-
-.nav-logo h1 span {
+.nav-logo span {
+    color: #ff0000;
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     font-size: 2.5rem;
 }
 
-.nav-links {
-    width: 55%;
-}
 
-.nav-login {
-    width: 25%;
-    align-items: end;
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav-links li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.nav-links a:hover {
+    color: #676b8a;
 }
 
 /* ------------------------------------------ */
@@ -89,22 +77,24 @@ nav div ul li a:hover {
     justify-content: center;
 }
 
+
 .intro h1 {
     color: #ffffff;
     font-size: 5rem;
     margin-top: 10rem;
     margin-bottom: 0.5rem;
 }
-
-.intro h1 span {
+.intro i {
     font-size: 4rem;
 }
+
 
 .intro h2 {
     color: #ffffff;
     margin: 1rem;
     font-size: 1.2rem;
 }
+
 
 .intro .button {
     background-color: #ffffff;
@@ -113,7 +103,7 @@ nav div ul li a:hover {
     text-decoration: none;
     color: #43455e; 
 }
-
 .intro .button:hover {
     background-color: #676b8a;
 }
+
