@@ -13,29 +13,11 @@
     
     <title>BLENK EVENTS</title>
     <link rel="stylesheet" href="./styles/index.css">
-    <link rel="stylesheet" href="./styles/nav.css">
+    <script src="/components/NavBar.js" defer></script>
 </head>
 
 <body>
-    <nav>
-        <div class="nav-logo">
-            <a href="#"><h1><span>B</span>LENK<span>.</span></h1></a>
-        </div>
-        <div class="nav-center nav-links">
-            <ul>
-                <li><a href="#">Events</a></li>
-                <li><a href="#">Photo Gallery</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="nav-login nav-links">
-            <ul>
-                <li><a href="#">Log in</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </div>
-    </nav>
+    <nav-bar></nav-bar>
 
     <div class="intro">
         <h1>
@@ -44,13 +26,13 @@
             EVENT
         </h1>
         <h2>EVENTS NEAR YOU</h2>
-        <a href="#" class="button" id="intro-button">Get Started</a>
+        <a href="#events" class="button" id="intro-button">Get Started</a>
     </div>
 
     <div class="fade-1"></div>
 
     <div class="portfolio">
-        <h2>Past events</h2>
+        <h2 id="events">Past events</h2>
         <div class="container">
             <div class="cards">
                 <div class="card">
