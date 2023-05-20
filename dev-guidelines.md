@@ -2,7 +2,7 @@
 
 ## Submittanje koda
 Svaki put kad radite na kodu prvo pullajte najnoviji kod sa repozitorija pa tam radite promjene. Ak na starom kodu radite promjene sam cemo undo-at prosli progress. Nemojte pushat
-direktno u `main` branch nego prvo na `develop` branch. Nakon toga odite na `Pull requests` tab i tamo napravite novi pull request gdje je `base: main` i `compare: develop`.
+direktno u `main` branch nego prvo na `develop` branch. Nakon toga odite na `Pull requests` tab i tamo napravite novi pull request gdje je `base: main` i `compare: develop`. Onda cekajte da je checkiram jel to strga nes postojece. Ak ne onda cu approveat pull request. Ak strga nes u comment na pull request cu vam napisat kaj ne valja pa fixajte to i onda cu approveat. Ak je neki minor tweak budem ja solo.
 
 ## Extensions
 Iskljucite svaki extension koji mijenja stranicu. Znaci svaki darkmode extension, adblocker ili slicno. Ne morate ga iskljuciti globally nego kod vecine mozete samo za tu stranicu.
