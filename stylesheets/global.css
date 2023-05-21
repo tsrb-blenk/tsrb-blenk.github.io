@@ -1,22 +1,41 @@
 :root {
-    --background:   #333333;
-    --text:         #ffffff;
+    --background:   #251f27;
 
-    --header-background:    #222222;
-    --header-text:          #aaaaaa;
+    --header-background:    #473f46;
+    --header-text:          #bbbbbb;
     
-    --footer-background:    #222222;
-    --footer-text:          #aaaaaa;
+    --footer-background:    #473f46;
+    --footer-text:          #bbbbbb;
 
     --text-1:   #ffffff;
     --text-2:   #aaaaaa;
 
     --link:         #ffffff;
     --link-visited: #aaaaaa;
-    --link-hover:   #ff0000;
-    --link-active:  #26ff00;
+    --link-hover:   #e2d2a4;
+    --link-active:  #e2d2a4;
 
-    --active-page:   #ee00ff;
+    --active-page:   #e2d2a4;
+    /*
+    cigane propai daj light theme
+    --lbackground:  #d0c29c
+
+    --lheader-background:   #e8daf8f;   
+    --lheader-text:          #666666;
+    
+    --lfooter-background:    #e8daf8f;
+    --lfooter-text:          #666666;
+
+    --ltext-1:   #222222;
+    --ltext-2:   #555555;
+
+    --llink:         #222222;
+    --llink-visited: #555555;
+    --llink-hover:   #dc4961;
+    --llink-active:  #dc4961;
+
+    --active-page:   #dc4961;  
+    */
 }
 
 
