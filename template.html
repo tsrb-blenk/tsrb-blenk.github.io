@@ -13,7 +13,7 @@
     <!-- stylesheets -->
     <link rel="stylesheet" href="/stylesheets/global.css">
     <!-- scripts -->
-
+    <script src="/scripts/nav.js" defer></script>
     <!-- title -->
     <title>{page-title} | Blenk</title>
 
@@ -23,17 +23,19 @@
     <header>
         <nav>
             <a href=""><h1>BLENK.</h1></a>
-            <ul>
+            <ul id="nav-links">
+                <li><a id="nav-close" onclick="navClose()">CLOSE</a></li>
                 <li><a href="/index.html" class="active-page">Home</a></li>
                 <li><a href="/events.html">Events</a></li>
                 <li><a href="/portfolio.html">Photo Gallery</a></li>
                 <li><a href="/about.html">About</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
+            <a id="nav-open" onclick="navOpen()">MENU</a>
         </nav>
     </header>
 
-    <main>
+    <main style="height: 100vh">
         
     </main>
 
@@ -46,10 +48,6 @@
             <h5>
                 <i class="fa-solid fa-location-dot"></i>
                 Getaldićeva ul. 4, 10000, Zagreb
-            </h5>
-            <h5>
-                <i class="fa-solid fa-envelope"></i>
-                blenktsrb@gmail.com
             </h5>
             <h5>
                 <i class="fa-brands fa-github"></i>
