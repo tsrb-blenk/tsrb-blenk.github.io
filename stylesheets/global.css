@@ -102,6 +102,9 @@ header {
     color: var(--header-text);
     border-bottom: 1px solid var(--highlight-alpha);
 }
+main {
+    margin: 20px 10%;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -136,6 +139,8 @@ nav ul li a[class*="active-page"]::after {
 }
 #nav-open, #nav-close {
     display: none;
+    user-select: none;
+    cursor: pointer;
 }
 #nav-close {
     margin-top: 12px;
