@@ -9,9 +9,13 @@
 
     --text-1:   #ffffff;
     --text-2:   #aaaaaa;
+    --highlight: #e2d2a4;
+    --highlight-alpha: #e2d2a460;
 
     --link:         #ffffff;
-    --link-visited: #aaaaaa;
+    --link-visited: #ffffff;
+    /* --link-visited: #aaaaaa; */
+
     --link-hover:   #e2d2a4;
     --link-active:  #e2d2a4;
 
@@ -96,6 +100,7 @@ i {
 header {
     background-color: var(--header-background);
     color: var(--header-text);
+    border-bottom: 1px solid var(--highlight-alpha);
 }
 nav {
     display: flex;
@@ -125,6 +130,34 @@ nav ul li a[class*="active-page"]::after {
     position: absolute;
     left: 0;
     bottom: -2px;    
+}
+#nav-links {
+    visibility: visible;
+}
+#nav-open, #nav-close {
+    display: none;
+}
+#nav-close {
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    #nav-open, #nav-close {
+        display: block;
+    }
+    #nav-links {
+        visibility: hidden;
+        width: 40%;
+        height: 120vh;
+        background-color: var(--header-background);
+        position: fixed;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+    }
+    #nav-links li {
+        margin: 10px 10px;
+    }
 }
 
 
@@ -156,4 +189,19 @@ footer div ul li {
 }
 footer i {
     font-size: 1.2rem;
+}
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+    footer h4 {
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (max-width: 370px) {
+    footer i {
+        position: absolute;
+        visibility: hidden;
+    }
 }
