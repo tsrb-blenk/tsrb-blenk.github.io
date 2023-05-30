@@ -4,12 +4,17 @@ main h1 {
 }
 
 #home-banner {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     height: 100vh;
     background: url("/assets/index/background.jpg");
     border-bottom: 1px solid var(--highlight-alpha);
+}
+#shadow {
+    height: 100.2%;
+    background: radial-gradient(#000000AA, var(--background));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* text-shadow: 5px 5px var(); */
 }
 
 #home-banner h1 {
