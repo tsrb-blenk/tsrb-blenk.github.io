@@ -14,7 +14,6 @@
 
     --link:         #ffffff;
     --link-visited: #ffffff;
-    /* --link-visited: #aaaaaa; */
 
     --link-hover:   #e2d2a4;
     --link-active:  #e2d2a4;
@@ -57,32 +56,26 @@ body {
 h1 {
     font-size: 2rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 h2 {
     font-size: 1.5rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 h3 {
     font-size: 1.3rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 h4 {
     font-size: 1rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 h5 {
     font-size: 0.8rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 h6 {
     font-size: 0.6rem;
     color: var(--text-1);
-    margin-top: 10px;
 }
 
 a {
@@ -109,8 +102,14 @@ header {
     border-bottom: 1px solid var(--highlight-alpha);
 }
 main {
-    margin: 50px 10%;
+    margin: 20px 10%;
 }
+@media only screen and (max-width: 450px) {
+    main {
+        margin: 20px 0;
+    }
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -141,6 +140,7 @@ nav ul li a[class*="active-page"]::after {
     bottom: -2px;    
 }
 #nav-links {
+    z-index: 99;
     visibility: visible;
 }
 #nav-open, #nav-close {
