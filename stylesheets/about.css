@@ -5,7 +5,7 @@
 
 #description {
     text-align: center;
-    color: #bbbbbb;
+    color: var(--text-2);
     width: 70%;
     margin: auto;
 }
@@ -35,7 +35,7 @@
 
 .team-member p {
     width: 70%;
-    color: #bbbbbb;
+    color: var(--text-2);
     margin: auto;
 }
 
@@ -60,13 +60,12 @@
     }
 }
 
-
 .team-member {
     text-align: center;
-    background-color: #473f46;
+    background-color: var(--island-background);
     padding: 20px;
     border-radius: 30px;
-    border: 1px solid #e2d2a460;
+    border: 1px solid var(--highlight-alpha);
 }
 
 #project {
@@ -81,7 +80,7 @@
 }
 
 #project-description {
-    color: #bbbbbb;
+    color: var(--text-2);
     width: 100%;
     margin: auto;
     margin-bottom: 50px;

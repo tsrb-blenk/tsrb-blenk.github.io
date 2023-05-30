@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authors" content="https://github.com/tsrb-blenk">
+    <!-- fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/stylesheets/global.css">
+    <link rel="stylesheet" href="/stylesheets/index.css">
+    <link rel="stylesheet" href="/stylesheets/carousel.css">
+    <!-- scripts -->
+    <script src="/scripts/nav.js" defer></script>
+    <script src="/scripts/carousel.js" defer></script>
+    <!-- title -->
+    <title>Home | Blenk</title>
+
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <a href=""><h1>BLENK.</h1></a>
+            <ul id="nav-links">
+                <li><a id="nav-close" onclick="navClose()">CLOSE</a></li>
+                <li><a href="/index.html" class="active-page">Home</a></li>
+                <li><a href="/events.html">Events</a></li>
+                <li><a href="/portfolio.html">Photo Gallery</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            <a id="nav-open" onclick="navOpen()">MENU</a>
+        </nav>
+    </header>
+
+    <div id="home-banner">
+        <h1>BLENK <i class="fa-solid fa-angles-down"></i> EVENT</h1>
+        <h3>Slogan ide ovde</h3>
+    </div>
+    <main>
+        <div>
+            <h1>Past events</h1>
+        </div>
+        <div>
+            <h1>Highlight pictures</h1>
+            <div class="center">
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel">
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                        <picture>
+                            <source srcset="/assets/index/caousel1.webp" type="image/webp">
+                            <img src="/assets/index/carousel1.png" alt="">
+                        </picture>
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
+                <a href="/portfolio.html" class="button">View more</a>
+            </div>
+        </div>
+        <div>
+            <h1>About Blenk</h1>
+            <div class="container">
+                <p>Ovdje stavi samo prvih recenicu il dvije iz about descriptiona</p>
+                <a href="/about.html">See more...</a>
+            </div>
+        </div>
+        <div>
+            <h1><a href="/contact.html">Contact us</a></h1>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <h5>
+                <i class="fa-solid fa-school"></i>
+                Technical School Ruđer Bošković, Zagreb
+            </h5>
+            <h5>
+                <i class="fa-solid fa-location-dot"></i>
+                Getaldićeva ul. 4, 10000, Zagreb
+            </h5>
+            <h5>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/tsrb-blenk/tsrb-blenk.github.io" target="_blank">
+                    @tsrb-blenk/tsrb-blenk.github.io
+                </a>
+            </h5>
+        </div>
+        <div>
+            <h4>Team Blenk:</h4>
+            <div>
+                <ul>
+                    <li>Lovro Hrnčić</li>
+                    <li>Kristijan Kralj</li>
+                    <li>Leon Kušić</li>
+                    <li>Noa Čanji</li>
+                    <li>Frane Ninić</li>
+                    <li>Jan Grdanjski</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
