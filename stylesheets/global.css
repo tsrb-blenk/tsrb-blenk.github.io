@@ -57,26 +57,32 @@ body {
 h1 {
     font-size: 2rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 h2 {
     font-size: 1.5rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 h3 {
     font-size: 1.3rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 h4 {
     font-size: 1rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 h5 {
     font-size: 0.8rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 h6 {
     font-size: 0.6rem;
     color: var(--text-1);
+    margin-top: 10px;
 }
 
 a {
@@ -103,7 +109,7 @@ header {
     border-bottom: 1px solid var(--highlight-alpha);
 }
 main {
-    margin: 20px 10%;
+    margin: 50px 10%;
 }
 nav {
     display: flex;
