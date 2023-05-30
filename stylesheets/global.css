@@ -139,6 +139,9 @@ nav {
     align-items: center;
     padding: 10px;
 }
+nav img {
+    height: 40px;
+}
 nav h1 {
     user-select: none;
 }
