@@ -9,7 +9,7 @@ main h1 {
     border-bottom: 1px solid var(--highlight-alpha);
 }
 #shadow {
-    height: 100.2%;
+    height: 100%;
     background: radial-gradient(#000000AA, var(--background));
     display: flex;
     align-items: center;
