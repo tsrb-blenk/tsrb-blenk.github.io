@@ -113,6 +113,7 @@ i {
 .button {
     text-decoration: none;
     background: var(--island-background);
+    color: var(--text-2);
     margin: 20px 10px 10px 10px;
     border-radius: 10px;
     padding: 10px 20px;
