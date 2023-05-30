@@ -1,0 +1,22 @@
+main h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#home-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url("/assets/index/background.jpg");
+    border-bottom: 1px solid var(--highlight-alpha);
+}
+
+#home-banner h1 {
+    font-size: 5rem;
+    margin-top: 350px;
+}
+
+#home-banner h3 {
+    color: var(--highlight);
+}
