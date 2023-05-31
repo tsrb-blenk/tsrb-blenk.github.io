@@ -58,6 +58,9 @@
         margin: 0;
         grid-template-columns: repeat(1, 100%);
     }
+    #title h1 {
+        font-size: 2rem;
+    }
 }
 
 .team-member {
