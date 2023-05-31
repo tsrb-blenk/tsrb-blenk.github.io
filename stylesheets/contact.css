@@ -84,5 +84,8 @@ textarea {
     #title h1 {
         font-size: 2rem;
     }
+    #left-side {
+        padding: 5px;
+    }
 }
 
