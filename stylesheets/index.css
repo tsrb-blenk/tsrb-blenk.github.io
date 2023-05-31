@@ -25,3 +25,36 @@ main h1 {
 #home-banner h3 {
     color: var(--highlight);
 }
+
+.vertical {
+    background-color: var(--island-background);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    margin: 10px;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical * {
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .horizontal {
+        flex-direction: column;
+    }
+    #home-banner h1 {
+        font-size: 3rem;
+    }
+}
