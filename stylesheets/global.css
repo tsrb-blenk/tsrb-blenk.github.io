@@ -57,6 +57,7 @@ body {
 h1 {
     font-size: 2rem;
     color: var(--text-1);
+    margin-left: 5px;
 }
 h2 {
     font-size: 1.5rem;
