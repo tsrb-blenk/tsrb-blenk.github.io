@@ -46,6 +46,10 @@ main #header {
     .event-info h3 {
         font-size: 1rem;
     }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -53,14 +57,33 @@ main #header {
         margin: 0;
         grid-template-columns: repeat(1, 100%);
     }
+
     main #header {
         font-size: 2rem;
     }
+
+    .event-info h3 {
+        font-size: 0.9rem;
+    }
+
+    p {
+        font-size: 0.75rem;
+    }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 350px) {
     main #header {
         font-size: 1.5rem;
+    }
+
+    .event-info h3 {
+        font-size: 0.5rem;
+        width: 50%;
+    }
+
+    p {
+        font-size: 0.5rem;
+        width: 70%;
     }
 }
 
